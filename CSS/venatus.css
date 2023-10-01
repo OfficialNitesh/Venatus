@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: rgba(237, 237, 214, 0.804);
+}
+nav{
+    padding-bottom: 100px;
+}
+img{
+    height: 25px; 
+}
+li{
+    
+    padding: 5px;
+    margin: 20px;
+    
+    display: inline-block;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: ease-in;
+    transition-duration: 0.5s;
+    transition-delay: 50ms;
+}
+.login{
+    padding: 10px;
+
+    /* border: solid black; */
+    position: absolute;
+    right: 230px;
+}
+.signup{
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 20px;
+    background: black;
+    color: aliceblue;
+    position: absolute;
+    right: 80px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#middle{
+    display: inline;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left:31vw; 
+    font-size: x-large;
+    border: solid rgb(234, 197, 104) 2px;
+    border-radius: 25px;
+    background: rgb(234, 197, 104);
+    
+      
+}
+#mainbody1{
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 100px;
+}
+#mainbody2{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+#bottombody1{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+}
+#bottombody2{
+    display: inline-block;
+    border: solid black;
+    margin-top: 50px;
+    margin-left: 45vw;
+    border-radius: 80px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    transition:ease-in;
+    transition-duration: 0.2s;
+}
+li:hover{
+    box-shadow: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    transition:ease-out;
+    transition-duration: 0.5s;
+}
+#bottombody2:hover{
+    box-shadow: 5 ;
+    font-size: large;
+
+}
